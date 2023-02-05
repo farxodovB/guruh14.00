@@ -1,24 +1,30 @@
-:root{
-    --rob:"Roboto";
+:root {
+    --rob: "Roboto";
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #D7D6DC;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-button{
+
+button {
     border: none;
 }
-.container{
+
+.container {
     max-width: 1140px;
     width: 100%;
     margin-left: auto;
@@ -27,26 +33,94 @@ button{
     padding-right: 15px;
 }
 
-.header{
+.header {}
+
+.news {}
+
+.container__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #2E2E3C;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 9px;
+    width: max-content;
+    margin: 20px auto 20px;
+    display: flex;
+    align-items: center;
 
 }
 
-.news{
-
+.container__title span {
+    background: #9A98EA;
+    border-radius: 4px;
+    padding: 7px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 5px;
+    color: #FFFFFF;
 }
 
-.product{
-
+.container__block {
+    display: flex;
+    gap: 30px;
 }
 
-.nike{
-
+.container__box {
+    background: #FFFFFF;
+    border: 1px solid #D7D6DC;
+    border-radius: 3px;
+    padding: 15px;
 }
 
-.design{
-
+.container__box img {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-.footer{
-
+.box__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-bottom: 10px;
 }
+
+.box__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #9B9B9B;
+    margin-bottom: 10px;
+}
+
+.box__buttom {
+    background: #DFC900;
+    border-radius: 3px;
+    padding: 11px 134px ;
+    margin-buttom: 15px; ;
+}
+
+.product {}
+
+.nike {}
+
+.design {}
+
+.footer {}
