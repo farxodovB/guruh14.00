@@ -1,24 +1,30 @@
-:root{
-    --rob:"Roboto";
+:root {
+    --rob: "Roboto";
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #D7D6DC;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-button{
+
+button {
     border: none;
 }
-.container{
+
+.container {
     max-width: 1140px;
     width: 100%;
     margin-left: auto;
@@ -27,26 +33,119 @@ button{
     padding-right: 15px;
 }
 
-.header{
+.header {}
+
+.news {}
+
+
+
+
+
+
+
+
+.product {
+    background: #FFFFFF;
+}
+
+.product_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_section {
+    width: 50%;
+    padding: 78px 98px;
+}
+
+.product_price-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.product_title {
+    font-family: var(--rob);
+    width: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.product_price {
+    display: flex;
+    font-family: var(--rob);
+    width: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    justify-content: space-around;
+    padding: 27px;
+}
+
+.product_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #6A6A6A;
 
 }
 
-.news{
+.prodcut_box_btn {
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.product_btn {
+    padding: 11px 101px;
+    color: #050505;
+    font-family: var(--rob);
+    font-size: 22px;
+    line-height: 26px;
+    background: #DFC900;
+    border-radius: 3px;
+}
+
+.product_images {
+    width: 40%;
+    display: grid;
+    grid-template-rows: 330px 160px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
 
 }
 
-.product{
-
+.product_img1 {
+    grid-column: span 2;
+    width: 100%;
+    height: 100%;
+}
+.product_img2 {
+        width: 100%;
+        height: 100%;
 }
 
-.nike{
-
+.product_img3 {
+        height: 100%;
+        width: 100%;
 }
 
-.design{
 
-}
 
-.footer{
 
-}
+
+
+
+
+
+
+
+
+.nike {}
+
+.design {}
+
+.footer {}
