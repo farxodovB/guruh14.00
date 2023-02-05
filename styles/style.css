@@ -34,7 +34,6 @@ button {
 }
 
 .header {}
-
 .news {}
 
 
@@ -91,7 +90,42 @@ button {
     font-size: 20px;
     line-height: 27px;
     color: #6A6A6A;
+=======
 
+.news {}
+
+.container__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #2E2E3C;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 9px;
+    width: max-content;
+    margin: 20px auto 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container__title span {
+    background: #9A98EA;
+    border-radius: 4px;
+    padding: 7px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 5px;
+    color: #FFFFFF;
 }
 
 .prodcut_box_btn {
@@ -115,7 +149,31 @@ button {
     grid-template-rows: 330px 160px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
+.container__block {
+    display: flex;
+    gap: 30px;
+}
 
+.container__box {
+    background: #FFFFFF;
+    border: 1px solid #D7D6DC;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.container__box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-bottom: 10px;
 }
 
 .product_img1 {
@@ -143,6 +201,31 @@ button {
 
 
 
+
+.nike {}
+
+.design {}
+
+.box__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #9B9B9B;
+    margin-bottom: 10px;
+}
+
+.box__buttom {
+    background: #DFC900;
+    border-radius: 3px;
+    padding: 11px 134px ;
+    margin-buttom: 15px; ;
+}
+
+.product {}
 
 .nike {}
 
